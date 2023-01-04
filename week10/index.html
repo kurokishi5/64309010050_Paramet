@@ -34,6 +34,16 @@
       +"แนวหนัง"+obj[i].category+'<br>'
       +"รีวิว"+obj[i].review.review+'<br>'
       +'<iframe src="' + obj[i].trailer + ' "height="400px"width="800px"></iframe>'
+
+      + '<h2>รีวิว</h2>' + obj[i].review.review + '<br><br>'
+
+        + '<h2>สรุปคะแนน</h2>'
+        + '<b>บทหนัง </b>' + obj[i].review.score.screenPlay + "&nbsp&nbsp&nbsp&nbsp&nbsp"
+        + '<b>การดำเนินเรื่อง </b>' + obj[i].review.score.playing + "&nbsp&nbsp&nbsp&nbsp&nbsp"
+        + '<b>ดนตรีประกอบ </b>' + obj[i].review.score.music + "&nbsp&nbsp&nbsp&nbsp&nbsp"
+        + '<b>ฝีมือนักแสดง </b>' + obj[i].review.score.actorSkills + "&nbsp&nbsp&nbsp&nbsp&nbsp"
+        + '<b>กราฟฟิก </b>' + obj[i].review.score.graphics + "&nbsp&nbsp&nbsp&nbsp&nbsp"
+        + '<b>คะแนนเฉลี่ย </b>' + obj[i].review.score.average + "&nbsp&nbsp&nbsp&nbsp&nbsp"
      
      
       +'<td class="table-info"><img src=" '+obj[i].picture+'"width="300px"></td>' + '</tr>';
