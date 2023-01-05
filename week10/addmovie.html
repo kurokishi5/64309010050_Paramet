@@ -15,7 +15,7 @@
 </head>
   <body>
     <div class="container">
-    <from id="myForm">
+    <form id="myForm">
 
     <div class="row">
         <div class="col-8">
@@ -83,15 +83,15 @@
                 <input class="btn btn-success" aria-label="Close" type="button" value="Submit" onclick="add()">
             </div>
         </div>
-</from>
+</form>
     </div> 
     <script>
         function add(){
         let obj = {
             "id":"",
-            //"movieName": document.forms['myForm']['movieName'].value,
+            "movieName": document.forms['myForm']['movieName'].value,
             "movieLength": document.forms['myForm']['movieLength'].value,
-            "directore": document.forms['myForm']['directore'].value,
+            "director": document.forms['myForm']['director'].value,
             "category": document.forms['myForm']['category'].value,
             "picture": document.forms['myForm']['picture'].value,
             "trailer": document.forms['myForm']['trailer'].value,
